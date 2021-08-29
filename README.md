@@ -9,7 +9,7 @@ There are several components of the BeBox, including 3D printed (filament), 3D p
 ### BlinkenPanel
 The BlinkenPanel displays CPU usage on 16 LEDs shinging through the front. The [project is shared on OSHPark](https://oshpark.com/shared_projects/XPZorljf). Other components needed for this are:
 
-* Green Square LEDs - Part Number SSL-LX335GD
+* Green Square LEDs - Part Number SSL-LX3353GD
 * I2C GPIO expander - MCP23017-E/SP
 * Resistors of various sort - 0805
 * DC Fan 5V - any 30mm fan for a Raspberry Pi
