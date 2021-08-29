@@ -18,7 +18,7 @@ The BlinkenPanel displays CPU usage on 16 LEDs shinging through the front. The [
 The heart of the BeBox - a front panel with Blinkenlights. This [is available on Shapeways](https://www.shapeways.com/product/FETJ2WU6V/raspi-bebox-face?optionId=224175918) or in the 3D files folder of this repository. Print with gray resin.
 
 ### Case Badge
-...Comes from [Case Badges](www.casebadges.com), have them make a 0.75" square domed badge of the images in the /Graphics folder of this repository
+...Comes from [Case Badges](https://www.case-badges.com), have them make a 0.75" square domed badge of the images in the /Graphics folder of this repository
 
 ### Interior. 
 The case is designed for a Raspberry Pi 4, along with a dual microHDMI adapter board:
