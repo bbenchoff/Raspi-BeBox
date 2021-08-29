@@ -12,7 +12,7 @@ The BlinkenPanel displays CPU usage on 16 LEDs shinging through the front. The [
 * Green Square LEDs - Part Number SSL-LX335GD
 * I2C GPIO expander - MCP23017-E/SP
 * Resistors of various sort - 0805
-* DC Fan 5V - 03010SS-05N-AT-00
+* DC Fan 5V - any 30mm fan for a Raspberry Pi
 
 ### Front panel
 The heart of the BeBox - a front panel with Blinkenlights. This [is available on Shapeways](https://www.shapeways.com/product/FETJ2WU6V/raspi-bebox-face?optionId=224175918) or in the 3D files folder of this repository. Print with gray resin.
@@ -29,5 +29,18 @@ The case is designed for a Raspberry Pi 4, along with a dual microHDMI adapter b
 Screw bosses are sized for No. 4 screws.
 
 
+## Assembly
 
-![BeOS Logo](https://github.com/bbenchoff/Raspi-BeBox/blob/main/Graphics/BeOSLogo.png)
+Insert the LEDs in one side of the front panel. The anode (+) goes toward the middle. Bend the cathode (-) out. Fit the PCB with only the anodes of one side installed. Glue is recommended to hold the LEDs in place.
+
+![](https://github.com/bbenchoff/Raspi-BeBox/blob/main/Images/as1.jpg)
+
+Install the other side of the LEDs, anode only.
+
+![](https://github.com/bbenchoff/Raspi-BeBox/blob/main/Images/as2.jpg)
+
+Mount the PCB to the front panel with screws. Solder the anodes of the LEDs. Bend the cathode legs around the PCB to the other LED solder pads.
+![](https://github.com/bbenchoff/Raspi-BeBox/blob/main/Images/as3.jpg)
+![](https://github.com/bbenchoff/Raspi-BeBox/blob/main/Images/as4.jpg)
+
+That's it! That's the easiest way to assemble this thing. Now write some python for the blinkenlights.
